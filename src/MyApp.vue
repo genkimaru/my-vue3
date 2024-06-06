@@ -7,7 +7,6 @@ import ArticleService from './components/ArticleService.vue'
 import DebounceRef from './components/DebounceRef.vue'
 import HelloWorld from './components/HelloWorld.vue'
 import SlideIn from './components/SlideIn.vue'
-
 </script>
 
 <template>
@@ -15,11 +14,4 @@ import SlideIn from './components/SlideIn.vue'
 
   <ArticleService></ArticleService>
   <DebounceRef></DebounceRef>
-</template>
-<!-- <HomePage></HomePage> -->
-
-<!-- <HelloWorld></HelloWorld> -->
-<!-- <ArticleService></ArticleService> -->
-
-<slide-in></slide-in>
 </template>
