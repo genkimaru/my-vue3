@@ -1,5 +1,6 @@
 // 自定义指令 v-slide-in
 
+let observer;
 const slideInDirective = {
     mounted(el, binding) {
       const options = binding.value || {};
@@ -11,8 +12,6 @@ const slideInDirective = {
       };
   
       const finalOptions = { ...defaultOptions, ...options };
-  
-      let observer;
   
       const slideIn = () => {
         el.style.transform = `translateY(${finalOptions.distance})`;
@@ -39,7 +38,7 @@ const slideInDirective = {
         rootMargin: '0px',
         threshold: 0.5 // 当元素进入视口50%时触发
       });
-  
+      console.log(el);
       observer.observe(el);
     },
     beforeUnmount(el) {
