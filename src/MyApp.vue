@@ -15,14 +15,16 @@ import SlideIn from './components/SlideIn.vue'
   <DebounceRef></DebounceRef> -->
 
   <x-scroll>
-    <div class="flex flex-row h-screen">
-      <div class="w-full h-full"><img src="https://picsum.photos/1200?random=1" /></div>
-      <div class="w-full h-full"><img src="https://picsum.photos/1200?random=2" /></div>
-      <div class="w-full h-full"><img src="https://picsum.photos/1200?random=3" /></div>
-      <div class="w-full h-full"><img src="https://picsum.photos/1200?random=4" /></div>
-      <div class="w-full h-full"><img src="https://picsum.photos/1200?random=5" /></div>
+    <div class="flex flex-row ">
+      <div class="shrink-0"><img src="https://picsum.photos/1000/500?random=1" /></div>
+      <div class="shrink-0"><img src="https://picsum.photos/1000/500?random=2" /></div>
+      <div class="shrink-0"><img src="https://picsum.photos/1000/500?random=3" /></div>
+      <div class="shrink-0"><img src="https://picsum.photos/1000/500?random=4" /></div>
+      <div class="shrink-0"><img src="https://picsum.photos/1000/500?random=5" /></div>
     </div>
   </x-scroll>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>

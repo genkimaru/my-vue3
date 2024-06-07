@@ -34,9 +34,14 @@ function handleResize(curSize) {
   --w: calc(v-bind(size.w) * 1px);
   width: var(--h);
   height: var(--w);
+
   overflow: auto;
   position: relative;
   transform-origin: right top;
   transform: rotate(-90deg) translateY(-600px);
 }
+.parents::--webkit-scrollbar{
+  display: none;
+}
+
 </style>
